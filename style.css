@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding:0px;
+    user-select: none;
+
+}
+
+.container{
+    display: flex;
+    
+    height: 100%;
+    width:100%;
+}
+
+.calculator{
+    
+    background-color: black;
+    padding :10px;
+    margin: auto;
+    /* box-shadow:  0px 0px 10px 3px;  */
+    border-radius: 8px;
+}
+
+body{
+    height: 100vh;
+}
+
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height:60px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size:1.7em;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 2;
+    font-size: 45px;
+    box-shadow: none;
+    padding:20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 3px #00000033;
+    height:80px;
+    border-radius: 0%;
+    color: beige;
+    
+}
+
+.Ac,.Del,.symbols_dot{
+    background-color: rgb(148, 142, 142);
+}
+
+.symbols,.equal{
+    background-color: rgb(233, 188, 54);
+}
+
+ form input.equal{
+    width:145px;
+}
+
+.calculator form .btn:active{
+    color:rgb(235, 232, 232);
+}
+
+.calculator form .symbols:active{
+    color:rgb(233, 188, 54);
+}
+
+.calculator form .Del:active{
+    color:rgb(148, 142, 142)
+}
+
+.calculator form .Ac:active{
+    color:rgb(148, 142, 142)
+}
+
+.calculator form .symbols_dot:active{
+    color:rgb(148, 142, 142)
+}
+
+.calculator form .equal:active{
+    color:rgb(233, 188, 54);
+}
